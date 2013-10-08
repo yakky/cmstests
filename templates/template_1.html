@@ -1,0 +1,16 @@
+{%  load cms_tags menu_tags sekizai_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    {% render_block "js" %}
+</head>
+<body>
+{% language_chooser %}
+{% placeholder test %}
+{% block changeme %}
+{% endblock changeme %}
+{% render_block "css" %}
+{% show_menu %}
+</body>
+</html>
